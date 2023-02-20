@@ -36,6 +36,7 @@
 
                     <li><a href="../front/random.php">Random post</a></li>
                     <li><a href="#">New post</a></li>
+                    <li><a href="./connect.php">Connect</a></li>
                 </ul>
             </nav>
         </div>
