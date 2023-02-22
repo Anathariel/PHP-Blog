@@ -1,0 +1,152 @@
+/* COLORS */
+
+$primary: #e71f73;
+$white: #FFF;
+$grey: #eeeeeed9;
+$black: #000;
+
+/* Font Style */
+
+$family : Verdana,
+Geneva,
+Tahoma,
+sans-serif;
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row-limit-size {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    float: left;
+    width: 400px;
+    height: 100%;
+    background-color: $black;
+
+    div#logo {
+        display: block;
+        width: 100%;
+        padding: 20px 0px;
+        color: $white;
+        font-size: 2.5rem;
+        text-align: center;
+
+        &:hover {
+            color: $primary;
+            transform: translate(1%);
+        }
+    }
+
+    nav#menu-admin {
+        height: 100vh;
+
+
+
+        &>ul {
+            &>li {
+                &>a {
+                    display: block;
+                    height: 50px;
+                    padding: 0 20px;
+                    line-height: 50px;
+                    color: $white;
+                    font-size: 1.5rem;
+
+                    &:hover {
+                        color: $primary;
+                        transform: translate(5%);
+                    }
+                }
+
+                &:hover ul {
+                    display: block;
+
+                }
+
+                ul {
+                    display: none;
+
+                    li {
+                        a {
+                            height: 50px;
+                            padding: 0 20px;
+                            line-height: 50px;
+                            color: $white;
+                            font-size: 1rem;
+
+                            &:hover {
+                                color: $primary;
+
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+main {
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+
+    h1 {
+        padding-bottom: 1rem;
+    }
+
+    div#list-posts {
+        margin-left: 2rem;
+
+        article {
+            div.article-content {
+                display: flex;
+                width: 100vh;
+                height: 3rem;
+                margin-bottom: 1.5rem;
+                background-color: $grey;
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+                border-radius: 0.5rem;
+
+                div {
+                    display: flex;
+                    padding-left: 350px;
+                    align-self: center;
+
+                    p {
+                        a {
+                            margin: 0 0.5rem;
+                            color: rgb(0, 193, 0);
+                        }
+
+                    p {
+                        a {
+                                color: red;
+                        }
+                    }
+                    }
+                }
+
+                p.article-title {
+                    width: 20rem;
+                    align-self: center;
+                    margin: 0 2rem;
+                    font-size: 1.5rem;
+                }
+
+            }
+        }
+    }
+}

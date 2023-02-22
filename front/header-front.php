@@ -19,7 +19,7 @@
                     <?php
                     require_once '../connection.php';
 
-                    $sql = "SELECT id,name FROM category";
+                    $sql = "SELECT `id`,`name` FROM `category`";
                     $req = $db->query($sql);
 
                     ?>

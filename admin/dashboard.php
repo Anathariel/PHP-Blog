@@ -1,6 +1,8 @@
-<?php
-session_start();
-if(!isset($_SESSION['id-user'])){
-    header('location: ../front/connect.php');
-}
-echo 'ici le dashboard';
+<?php include_once './header-admin.php'; ?>
+
+<main>
+    <h1>Bienvenue</h1>
+</main>
+</body>
+
+</html>
